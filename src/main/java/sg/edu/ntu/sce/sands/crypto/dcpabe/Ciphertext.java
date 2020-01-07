@@ -60,4 +60,16 @@ public class Ciphertext implements Serializable {
     public void setAccessStructure(AccessStructure accessStructure) {
         this.accessStructure = accessStructure;
     }
+
+    public int getC1Length() {
+        return this.c1.size();
+    }
+
+    public int getC2Length() {
+        return this.c2.size();
+    }
+
+    public int getC3Length() {
+        return this.c2.size();
+    }
 }
